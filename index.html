@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multistream Viewer Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="viewer-container">
+    <div class="platform twitch">
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg" alt="Twitch" />
+      <span id="twitch-count">0</span>
+    </div>
+    <div class="platform youtube">
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" />
+      <span id="yt-count">0</span>
+    </div>
+    <div class="platform kick">
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kick.svg" alt="Kick" />
+      <span id="kick-count">0</span>
+    </div>
+    <div class="platform total">
+      <span class="label">TOTAL:</span>
+      <span id="total-count">0</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
